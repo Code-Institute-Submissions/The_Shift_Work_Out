@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    
 }
 
 /* -----------------------------------------------------------------NAV */
@@ -20,7 +21,7 @@ body {
 .footer-navbar .nav-link{
    padding:2px;
    color:black;
-   text-transform: uppercase;
+   text-transform: capitalize;
 }
 .nav-link:hover{
     color:#EE2E31;
@@ -33,4 +34,7 @@ body {
 
 /* -----------------------------------------------------------------Footer elements except Nav */
 
+p i {
+    display:block;
 
+}
