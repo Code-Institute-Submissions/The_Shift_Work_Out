@@ -1,0 +1,36 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/* -----------------------------------------------------------------NAV */
+.navbar-brand i{
+    padding-left:3px;
+    color:#EE2E31;
+}
+.header-navbar .nav-link{
+    padding:6px;
+    text-transform: capitalize;
+    color:#F2F3D9;
+}
+.navbar-bg {
+    background-color:#071E22;
+}
+
+.footer-navbar .nav-link{
+   padding:2px;
+   color:black;
+   text-transform: uppercase;
+}
+.nav-link:hover{
+    color:#EE2E31;
+    text-decoration: underline;
+    transition-delay: 0.02s;
+}
+.logo {
+    color:#F2F3D9;
+}
+
+/* -----------------------------------------------------------------Footer elements except Nav */
+
+
