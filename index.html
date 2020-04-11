@@ -45,10 +45,6 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -56,16 +52,70 @@
         </nav>
 
     </header>
-    
 
-        <!----------------------------------------------------------hero image and call out-->
-    <div class="container img-container">
+
+    <!----------------------------------------------------------hero image and call out-->
+    <div class="container-fluid img-container">
         <section class="callout jumbotron mt-4 text-center">
             <div class="row">
                 <div class="col-12">
                     <h1>The Shift_Work Gym</h1>
                     <p>24/7 gym designed specifically for Shift_Workers, by Shift_Workers! Memberships from 14 95!</p>
-                    <a class="btn btn-primary" href="memberships.html">Sign up!</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-up-modal">
+                        Sign Up!
+                    </button>
+                    <a class="btn btn-primary" href="memberships.html">Memberships</a>
+                    <div class="modal fade" id="sign-up-modal" tabindex="-1" role="dialog"
+                        aria-labelledby="sign-up-modal" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Sign Up!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="submit">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Date Of Birth">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="casualMembership"
+                                                value="casualMembership" name="membership-type">
+                                            <label class="form-check-label" for="casualMembership">Casual
+                                                Fitness</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="dedicatedFitness"
+                                                value="dedicatedFitness" name="membership-type">
+                                            <label class="form-check-label" for="dedicatedFitness">Dedicated
+                                                Fitness</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="flexibleMembership"
+                                                value="flexibleMembership" name="membership-type">
+                                            <label class="form-check-label" for="flexibleMembership">Flexible
+                                                Fitness</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Submit!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -130,7 +180,7 @@
 
 
 
-    
+
 
     <!----------------------------------------------------------footer-->
     <footer class="container-fluid bg-light">
