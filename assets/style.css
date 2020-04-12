@@ -20,7 +20,6 @@ img-container {
 /*----------------------------------------------------------------------------------------Membership*/
 
 .membership-div {
-    border: 1px solid #000000;
     margin-top:40px;
     margin-bottom:30px;
     height:400px;
@@ -28,7 +27,6 @@ img-container {
     list-style-type: none;
 }
 #membership-div-fav {
-    border:2px solid black;
     height:500px;
     width:300px;
     margin-top:10px;
@@ -44,7 +42,6 @@ img-container {
 
 @media screen and (max-width: 590px) {
     .membership-div {
-    border: 1px solid #000000;
     margin-top:10px;
     margin-bottom:5px;
     height:400px;
@@ -53,7 +50,6 @@ img-container {
     list-style-type: none;
 }
 #membership-div-fav {
-    border:2px solid red;
     height:400px;
     width:80%;
     margin-top:10px;
@@ -62,7 +58,6 @@ img-container {
 }
 @media screen and (min-width: 589px) {
     .membership-div {
-    border: 1px solid #000000;
     margin-top:1px;
     margin-bottom:1px;
     height:400px;
@@ -71,7 +66,6 @@ img-container {
     list-style-type: none;
 }
 #membership-div-fav {
-    border:2px solid red;
     height:400px;
     width:80%;
     margin-top:10px;
@@ -85,3 +79,8 @@ img-container {
 /*----------------------------------------------------------------------------------------FAQ*/
 
 /*----------------------------------------------------------------------------------------Contact*/
+
+/*----------------------------------------------------------------------------------------Footer*/
+footer {
+    padding-top:10px;
+}
