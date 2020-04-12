@@ -1,77 +1,131 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 
 }
+
 /*----------------------------------------------------------------------------------------Index*/
-button-container {
+button-container {}
+
+benefits-container {}
+
+about-container {}
+
+.carousel-div {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
 
 }
-benefits-container {
+
+.carousel-div img {
+    height: 100%;
+    margin-top: -15%;
 
 }
-about-container{
 
-}
-img-container {
-
-}
 /*----------------------------------------------------------------------------------------Membership*/
 
 .membership-div {
-    margin-top:40px;
-    margin-bottom:30px;
-    height:400px;
-    width:200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 200px;
     list-style-type: none;
 }
+
 #membership-div-fav {
-    height:500px;
-    width:300px;
-    margin-top:10px;
+    height: 500px;
+    width: 300px;
+    margin-top: 10px;
     list-style-type: none;
 }
-.membership-div ul{
+
+.membership-div ul {
     list-style-type: none;
 }
-#membership-div-fav ul{
+
+#membership-div-fav ul {
     list-style-type: none;
 }
+
+/*----------------------------------------------------------------------------------------Media Query*/
 
 
 @media screen and (max-width: 590px) {
     .membership-div {
-    margin-top:10px;
-    margin-bottom:5px;
-    height:400px;
-    width:80%;
-    margin-left:10%;
-    list-style-type: none;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        height: 400px;
+        width: 80%;
+        margin-left: 10%;
+        list-style-type: none;
+    }
+
+    #membership-div-fav {
+        height: 400px;
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 10%;
+        list-style-type: none;
+
+
+    }
+
+    .carousel-div {
+        height: 50%;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+
+    }
 }
-#membership-div-fav {
-    height:400px;
-    width:80%;
-    margin-top:10px;
-    margin-left:10%;
-    list-style-type: none;
-}
+
 @media screen and (min-width: 589px) {
     .membership-div {
-    margin-top:1px;
-    margin-bottom:1px;
-    height:400px;
-    width:80%;
-    margin-left:10%;
-    list-style-type: none;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        height: 400px;
+        width: 80%;
+        margin-left: 10%;
+        list-style-type: none;
+    }
+
+    #membership-div-fav {
+        height: 400px;
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 10%;
+        list-style-type: none;
+    }
+
 }
-#membership-div-fav {
-    height:400px;
-    width:80%;
-    margin-top:10px;
-    margin-left:10%;
-    list-style-type: none;
+
+@media screen and (min-width: 1000px) {
+    .carousel-div {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .carousel-div img {
+        height: 100%;
+        margin-top: -13%;
+
+    }
 }
+
+@media screen and (max-width: 700px) {
+    .carousel-div {
+        height: 60%;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
 }
 
 /*----------------------------------------------------------------------------------------Classes*/
@@ -82,5 +136,5 @@ img-container {
 
 /*----------------------------------------------------------------------------------------Footer*/
 footer {
-    padding-top:10px;
+    padding-top: 10px;
 }
