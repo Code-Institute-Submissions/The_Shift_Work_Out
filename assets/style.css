@@ -5,10 +5,20 @@ body {
 
 }
 
+
 /*----------------------------------------------------------------------------------------Index*/
 button-container {}
 
 benefits-container {}
+
+.benefits-div {
+    height:200px;
+}
+.benefits-div i {
+    font-size: 80px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
 
 about-container {}
 
@@ -45,6 +55,12 @@ about-container {}
  height:530px;
  margin-top:-15px;
 }
+.btn-membership {
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:50px;
+}
 
 
 
@@ -66,7 +82,33 @@ about-container {}
 /*----------------------------------------------------------------------------------------Footer*/
 footer {
     padding-top: 10px;
+    height:100%;
 }
+footer i {
+    font-size: 30px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+footer ul a {
+    color:black;
+}
+.i-map {
+    font-size:30px;
+    color:#1EA362;
+    padding-left:0px;
+}
+/* --------------------------------------------------------------------------------------Colors */
+.f-blue {
+    color:#3b5998;
+}
+.t-blue {
+    color:#00acee;
+}
+.i-red {
+    color:#E1306C;
+}
+
+
 
 /*----------------------------------------------------------------------------------------Media Query*/
 
@@ -79,21 +121,19 @@ footer {
         padding: 0;
 
     }
-    .membership-div {
-    padding-top:10px;
-    list-style-type: none;
-    height:100%;
-    width:70%;
     
-}
 
 .membership-margin-mq {
     margin-right:15%;
     margin-left:15%;
 }
 #membership-div-fav {
- height:100%;
  margin-top:0px;
+}
+footer i {
+    font-size: 30px;
+    padding-right:2.5px;
+    padding-left: 2.5px;
 }
 }
 
