@@ -28,53 +28,50 @@ about-container {}
 }
 
 /*----------------------------------------------------------------------------------------Membership*/
-
 .membership-div {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    height: 400px;
-    width: 200px;
+    padding-top:10px;
     list-style-type: none;
+    height:500px;
+    
 }
+.membership-margin-left {
+    margin-left:12%;
 
+}
+.membership-margin-right {
+    margin-right:12%;
+}
 #membership-div-fav {
-    height: 500px;
-    width: 300px;
-    margin-top: 10px;
-    list-style-type: none;
+ height:530px;
+ margin-top:-15px;
 }
 
-.membership-div ul {
-    list-style-type: none;
+
+
+/*----------------------------------------------------------------------------------------Classes*/
+.classes-container {
+    width:80%;
+    margin-bottom:5%;
+}
+.classes-div {
+    padding-top:10px;
 }
 
-#membership-div-fav ul {
-    list-style-type: none;
+
+
+/*----------------------------------------------------------------------------------------FAQ*/
+
+/*----------------------------------------------------------------------------------------Contact*/
+
+/*----------------------------------------------------------------------------------------Footer*/
+footer {
+    padding-top: 10px;
 }
 
 /*----------------------------------------------------------------------------------------Media Query*/
 
 
 @media screen and (max-width: 590px) {
-    .membership-div {
-        margin-top: 10px;
-        margin-bottom: 5px;
-        height: 400px;
-        width: 80%;
-        margin-left: 10%;
-        list-style-type: none;
-    }
-
-    #membership-div-fav {
-        height: 400px;
-        width: 70%;
-        margin-top: 10px;
-        margin-left: 10%;
-        list-style-type: none;
-
-
-    }
-
     .carousel-div {
         height: 50%;
         width: 100%;
@@ -82,28 +79,27 @@ about-container {}
         padding: 0;
 
     }
+    .membership-div {
+    padding-top:10px;
+    list-style-type: none;
+    height:100%;
+    width:70%;
+    
+}
+
+.membership-margin-mq {
+    margin-right:15%;
+    margin-left:15%;
+}
+#membership-div-fav {
+ height:100%;
+ margin-top:0px;
+}
 }
 
 @media screen and (min-width: 589px) {
-    .membership-div {
-        margin-top: 1px;
-        margin-bottom: 1px;
-        height: 400px;
-        width: 80%;
-        margin-left: 10%;
-        list-style-type: none;
-    }
-
-    #membership-div-fav {
-        height: 400px;
-        width: 80%;
-        margin-top: 10px;
-        margin-left: 10%;
-        list-style-type: none;
-    }
-
+  
 }
-
 @media screen and (min-width: 1000px) {
     .carousel-div {
         height: 400px;
@@ -128,13 +124,3 @@ about-container {}
     }
 }
 
-/*----------------------------------------------------------------------------------------Classes*/
-
-/*----------------------------------------------------------------------------------------FAQ*/
-
-/*----------------------------------------------------------------------------------------Contact*/
-
-/*----------------------------------------------------------------------------------------Footer*/
-footer {
-    padding-top: 10px;
-}
