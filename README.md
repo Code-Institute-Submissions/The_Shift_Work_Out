@@ -1,5 +1,6 @@
 # Milestone Project 1:
 ## The Shift_Work Gym
+Website link: https://xander-webdev.github.io/The_Shift_Work_Out/index.html
 
 This is my first Milestone project for my Diploma in Software Development. I decided to create a website that accommodated shift workers due to a few reasons. Firstly, I am a shift worker myself and I know the pain of having to sometimes miss my favourite classes at the gym due to the classes being rigid and only accommodating those who work 9 to 5’s or set working hours. Secondly, due to the global pandemic (COVID-19) I wanted to create a website that was a little tribute to some of the essential workers out there who are working crazy shifts on the front line trying to get this pandemic under control. 
 Thank you for your service, this one’s for you.
