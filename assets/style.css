@@ -2,7 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color:#fafbf5;
+
 }
 
 p,
@@ -23,6 +24,15 @@ h6 {
 li {
     list-style-type: none;
 }
+hr {
+    border: 0;
+    border-radius: 20px;
+    height: 10px;
+    width:300px;
+    background: #276873;
+    background-image: linear-gradient(to right,#599bb3, #276873, #599bb3);
+}
+
 
 /*----------------------------------------------------------------------------------------buttons*/
 .btn-full {
@@ -104,23 +114,25 @@ header .navbar {
 
 .benefits-div {
     background-color: #E8F1F2;
-    border: 2px solid #fff;
+    border: 2px solid #E8F1F2;
     border-radius: 20px;
+     height: 200px;
+     box-shadow: 0px 10px 14px -7px #276873;
 }
 
+.benefits-container {
+    margin-bottom:2%;
+}
 .benefits-container i {
     color: #276873;
 }
 
-.benefits-div {
-    height: 200px;
-
-}
 
 .benefits-div i {
     font-size: 80px;
     padding-top: 10px;
     padding-bottom: 3px;
+    
 }
 
 .benefits-div h3 {
@@ -128,7 +140,6 @@ header .navbar {
     padding-bottom: 5px;
 }
 
-about-container {}
 
 .carousel-div {
     height: 350px;
@@ -144,8 +155,18 @@ about-container {}
     margin-top: -15%;
 
 }
+.button-container {
+    margin-bottom: 4%;
+}
 
 /*----------------------------------------------------------------------------------------Membership*/
+.membership-container {
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.membership-heading {
+    padding-top:2%;
+}
 .membership-div {
     padding-top: 10px;
     border: 2px solid rgba(63, 63, 55, 0.2);
@@ -154,12 +175,27 @@ about-container {}
     height: 500px;
     margin: 0.3px;
     position: relative;
+    box-shadow: 0px 10px 14px -7px #276873;
 
+}
+.membership-div .btn-membership {
+    height:60px;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 15%;
+    position: absolute;
+    bottom: 15px;
+    top: 85%;
+}
+#membership-div-fav .btn-membership {
+    height:70px;
 }
 
 .membership-div ul {
     text-align: center;
     padding-inline-start: 10px;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .membership-margin-left {
@@ -176,13 +212,6 @@ about-container {}
     margin-top: -40px;
 }
 
-.membership-div .btn-membership {
-    width: 70%;
-    margin-left: 10%;
-    margin-right: 15%;
-    position: absolute;
-    bottom: 20px;
-}
 
 .badge-color {
     border: 2px solid #408c99;
@@ -206,8 +235,8 @@ about-container {}
 }
 
 .know-more-div {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
+    margin-top:4%;
 }
 
 
@@ -218,17 +247,25 @@ about-container {}
     margin-bottom: 5%;
 
 }
+.class-heading {
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
 
 .classes-div {
     padding-top: 10px;
     border: 2px solid rgba(63, 63, 55, 0.2);
     background-color: #f9f9f9;
+    box-shadow: 0px 10px 14px -7px #276873;
 }
 
 .classes-div a {
     color: #408c99;
 }
-
+.inspired-container {
+    margin-top: 4%;
+    margin-bottom:4%;
+}
 
 /*----------------------------------------------------------------------------------------Contact*/
 .contact-form {
@@ -237,11 +274,13 @@ about-container {}
     margin-right: 25%;
     margin-bottom: 15%;
     text-align: center;
+    
 }
 
 .contact-form input {
     padding: 10px;
     margin: 3px;
+    box-shadow: 0px 10px 14px -7px #276873;
 }
 
 .contact-input {
@@ -260,13 +299,13 @@ about-container {}
 }
 
 .contact-heading {
-    margin-top: 6px;
-    margin-bottom: 40px;
+    padding-top: 2%;
+    margin-bottom: 5%;
 }
 
 /*----------------------------------------------------------------------------------------Footer*/
 footer {
-    background-color: #E8F1F2;
+    background-color: rgba(63, 63, 55, 0.9);
     padding-top: 10px;
     height: 100%;
 }
@@ -276,9 +315,11 @@ footer i {
     padding-right: 15px;
     padding-left: 15px;
 }
-
-footer ul a {
-    color: black;
+footer a {
+    color:rgba(255,255,255,.5)
+}
+footer a:hover {
+    color:#E8F1F2;
 }
 
 .i-map {
@@ -287,17 +328,25 @@ footer ul a {
     padding-left: 0px;
 }
 
-/* --------------------------------------------------------------------------------------Colors */
 .f-blue {
-    color: #3b5998;
+    color: #3570f0;
+    font-size:30px;
 }
 
 .t-blue {
     color: #00acee;
+    font-size:30px;
 }
 
 .i-red {
     color: #E1306C;
+    font-size:30px;
+}
+ div .i-background  {
+    display:inline-block;
+}
+.footer-text {
+    color:#E8F1F2;
 }
 
 
@@ -355,6 +404,21 @@ footer ul a {
         margin-bottom: 15%;
         text-align: center;
     }
+    #membership-div-fav .btn-membership {
+    height:60px;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 15%;
+    position: absolute;
+    bottom: 15px;
+    top: 87.3%;
+}
+.membership-div ul{
+    padding-top:20px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+}
 }
 
 @media screen and (min-width: 1000px) {
@@ -391,4 +455,11 @@ footer ul a {
     .btn-full {
         box-shadow: none;
     }
+    
+    #membership-div-fav .btn-membership {
+    padding:0;
+}
+.membership-div .btn-membership {
+    padding:0;
+}
 }
