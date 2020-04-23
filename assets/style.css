@@ -193,7 +193,6 @@ header .navbar {
 
 .membership-div ul {
     text-align: center;
-    padding-inline-start: 10px;
     font-size: 18px;
     line-height: 2;
 }
@@ -419,7 +418,7 @@ footer a:hover {
     line-height: 1.7;
 }
 }
-}
+
 
 @media screen and (min-width: 1000px) {
     .carousel-div {
