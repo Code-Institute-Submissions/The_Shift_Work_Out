@@ -46,12 +46,7 @@ My contact form on the Contact us page will not allow a user to submit without f
 An interesting bug I discovered was when I clicked the button for the modal in the membership sections, the button would briefly jump to be the full height of the parent element. I later discovered this was because I didn’t set the “Top” value in css and only set the “Bottom” value.
  
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The deployment of this project was simple. I simply created a repository on github and initialized it from the command line within github. I made sure to continue to commit and push to github to keep track of the versions. Although my github and gitpod knowledge is slim, I am looking to expand it in the coming lessons.
 # Credits
 ## Media
 The photos used in this site were obtained from www.pexels.com
@@ -63,8 +58,8 @@ Addition Credit  to
 
 ## Acknowledgements
 I received inspiration for this project from :
-1. Puregym. I tried to use the same color scheme as their website. I was a member of Puregym for a long time and absolutely loved their online platform and facilities.
-2. Trainmore gym who gives attendance discounts to their members. Fantastic idea!
+1. Puregym. I used a similar color scheme as their website. I was a member of Puregym for a long time and absolutely loved their online platform and facilities.
+2. Trainmore gym who gives attendance discounts to their members. Fantastic idea and incentive considering most gyms have 4 or 5 times capacity of their building because they people buy contracts and never use it.
 3. Snapfitness for their 24/7 training schedule
 
 These websites provided me with invaluable information:
@@ -75,5 +70,7 @@ These websites provided me with invaluable information:
 5. https://www.w3schools.com/css/css3_mediaqueries.asp
 6. https://coolors.co/
 7. https://css-tricks.com/examples/hrs/
-8. And ofcourse, Code Institute, the tutors, the mentors and the course material. In the beginning of the project I relied heavily on the Bootstrap Resume Project for help with the outlines of the website and to ensure it was structured properly!
+8. And ofcourse, Code Institute, the tutors, the mentors and the course material. In the beginning of the project I relied quite a lot on the Bootstrap Resume Project for help with the outlines of the website's bootstrap components and to ensure it was structured properly! After building one outline of a page, I had a firm grasp of bootstrap and could work by myself using the bootstrap built in classes.
+
+Thank you for taking the time to view this project and I urge you to watch this space because I had so much fun creating this project and I cannot wait to build applications with more functionality and flexibility!
 

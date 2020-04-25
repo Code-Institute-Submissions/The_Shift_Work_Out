@@ -1,0 +1,58 @@
+/*----------------------------------------------------------------------------------------Index*/
+.about-container {
+    border-top: 3px solid #3F3F37;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.about-container p {
+    padding-bottom: 30px;
+}
+
+.benefits-div {
+    background-color: #E8F1F2;
+    border: 2px solid #E8F1F2;
+    border-radius: 20px;
+     height: 200px;
+     box-shadow: 0px 10px 14px -7px #276873;
+}
+
+.benefits-container {
+    margin-bottom:2%;
+}
+.benefits-container i {
+    color: #276873;
+}
+
+
+.benefits-div i {
+    font-size: 80px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    
+}
+
+.benefits-div h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+.carousel-div {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+}
+
+.carousel-div img {
+    height: 100%;
+    margin-top: -15%;
+
+}
+.button-container {
+    margin-bottom: 4%;
+}

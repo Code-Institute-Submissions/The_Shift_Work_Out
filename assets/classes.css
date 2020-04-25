@@ -1,0 +1,26 @@
+.classes-container {
+    width: 80%;
+    margin-bottom: 5%;
+
+}
+
+.class-heading {
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+.classes-div {
+    padding-top: 10px;
+    border: 2px solid rgba(63, 63, 55, 0.2);
+    background-color: #f9f9f9;
+    box-shadow: 0px 10px 14px -7px #276873;
+}
+
+.classes-div a {
+    color: #408c99;
+}
+
+.inspired-container {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#fafbf5;
+    background-color: #fafbf5;
 
 }
 
@@ -24,13 +24,14 @@ h6 {
 li {
     list-style-type: none;
 }
+
 hr {
     border: 0;
     border-radius: 20px;
     height: 10px;
-    width:300px;
+    width: 300px;
     background: #276873;
-    background-image: linear-gradient(to right,#599bb3, #276873, #599bb3);
+    background-image: linear-gradient(to right, #599bb3, #276873, #599bb3);
 }
 
 
@@ -100,210 +101,7 @@ header .navbar {
     color: #599bb3;
 }
 
-/*----------------------------------------------------------------------------------------Index*/
-.about-container {
-    border-top: 3px solid #3F3F37;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-}
 
-.about-container p {
-    padding-bottom: 30px;
-}
-
-.benefits-div {
-    background-color: #E8F1F2;
-    border: 2px solid #E8F1F2;
-    border-radius: 20px;
-     height: 200px;
-     box-shadow: 0px 10px 14px -7px #276873;
-}
-
-.benefits-container {
-    margin-bottom:2%;
-}
-.benefits-container i {
-    color: #276873;
-}
-
-
-.benefits-div i {
-    font-size: 80px;
-    padding-top: 10px;
-    padding-bottom: 3px;
-    
-}
-
-.benefits-div h3 {
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-
-
-.carousel-div {
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-
-}
-
-.carousel-div img {
-    height: 100%;
-    margin-top: -15%;
-
-}
-.button-container {
-    margin-bottom: 4%;
-}
-
-/*----------------------------------------------------------------------------------------Membership*/
-.membership-container {
-    padding-top:5%;
-    padding-bottom: 5%;
-}
-.membership-heading {
-    padding-top:2%;
-}
-.membership-div {
-    padding-top: 10px;
-    border: 2px solid rgba(63, 63, 55, 0.2);
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    height: 500px;
-    margin: 0.3px;
-    position: relative;
-    box-shadow: 0px 10px 14px -7px #276873;
-
-}
-.membership-div .btn-membership {
-    height:60px;
-    width: 70%;
-    margin-left: 10%;
-    margin-right: 15%;
-    padding:0;
-    position: absolute;
-    bottom: 15px;
-    top: 85%;
-}
-#membership-div-fav .btn-membership {
-    height:70px;
-    padding:0;
-}
-
-.membership-div ul {
-    text-align: center;
-    font-size: 15px;
-    line-height: 2;
-    padding-left:10px;
-}
-
-.membership-margin-left {
-    margin-left: 12%;
-
-}
-
-.membership-margin-right {
-    margin-right: 12%;
-}
-
-#membership-div-fav {
-    height: 540px;
-    margin-top: -40px;
-}
-
-
-.badge-color {
-    border: 2px solid #408c99;
-    background-color: #408c99;
-    color: #fff;
-    font-size: 60%;
-}
-
-.heading-margin-top {
-    margin-top: 10%;
-
-}
-
-.heading-text {
-    color: #408c99;
-    text-transform: uppercase;
-}
-
-.heading-text-margin {
-    margin-bottom: 20%;
-}
-
-.know-more-div {
-    margin-bottom: 4%;
-    margin-top:4%;
-}
-
-
-
-/*----------------------------------------------------------------------------------------Classes*/
-.classes-container {
-    width: 80%;
-    margin-bottom: 5%;
-
-}
-.class-heading {
-    padding-top: 2%;
-    margin-bottom: 5%;
-}
-
-.classes-div {
-    padding-top: 10px;
-    border: 2px solid rgba(63, 63, 55, 0.2);
-    background-color: #f9f9f9;
-    box-shadow: 0px 10px 14px -7px #276873;
-}
-
-.classes-div a {
-    color: #408c99;
-}
-.inspired-container {
-    margin-top: 4%;
-    margin-bottom:4%;
-}
-
-/*----------------------------------------------------------------------------------------Contact*/
-.contact-form {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 15%;
-    text-align: center;
-    
-}
-
-.contact-form input {
-    padding: 10px;
-    margin: 3px;
-    box-shadow: 0px 10px 14px -7px #276873;
-}
-
-.contact-input {
-    width: 80%;
-    background-color: #f9f9f9;
-    border: 1px solid #3F3F37;
-    border-radius: 4px;
-}
-
-.msg-input {
-    height: 200px;
-}
-
-.contact-form a {
-    margin-top: 4px;
-}
-
-.contact-heading {
-    padding-top: 2%;
-    margin-bottom: 5%;
-}
 
 /*----------------------------------------------------------------------------------------Footer*/
 footer {
@@ -317,11 +115,13 @@ footer i {
     padding-right: 15px;
     padding-left: 15px;
 }
+
 footer a {
-    color:rgba(255,255,255,.5)
+    color: rgba(255, 255, 255, .5);
 }
-footer a:hover {
-    color:#E8F1F2;
+
+footer nav a:hover {
+    color: #408c99;
 }
 
 .i-map {
@@ -332,23 +132,25 @@ footer a:hover {
 
 .f-blue {
     color: #3570f0;
-    font-size:30px;
+    font-size: 30px;
 }
 
 .t-blue {
     color: #00acee;
-    font-size:30px;
+    font-size: 30px;
 }
 
 .i-red {
     color: #E1306C;
-    font-size:30px;
+    font-size: 30px;
 }
- div .i-background  {
-    display:inline-block;
+
+div .i-background {
+    display: inline-block;
 }
+
 .footer-text {
-    color:#E8F1F2;
+    color: #E8F1F2;
 }
 
 
@@ -406,20 +208,22 @@ footer a:hover {
         margin-bottom: 15%;
         text-align: center;
     }
+
     #membership-div-fav .btn-membership {
-        height:60px;
+        height: 60px;
         width: 70%;
         margin-left: 10%;
         margin-right: 15%;
         position: absolute;
         bottom: 15px;
         top: 87.3%;
-}
-.membership-div ul{
-    padding-top:20px;
-    font-size: 15px;
-    line-height: 1.7;
-}
+    }
+
+    .membership-div ul {
+        padding-top: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
 }
 
 
@@ -436,12 +240,14 @@ footer a:hover {
         margin-top: -13%;
 
     }
+
     .membership-div ul {
-    text-align: center;
-    font-size: 18px;
-    line-height: 2;
-    padding-left:10px;
-    
+        text-align: center;
+        font-size: 18px;
+        line-height: 2;
+        padding-left: 10px;
+
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -463,12 +269,13 @@ footer a:hover {
     .btn-full {
         box-shadow: none;
     }
-    
+
     #membership-div-fav .btn-membership {
-        padding:0;
-}
+        padding: 0;
+    }
+
     .membership-div .btn-membership {
-        padding:0;
-}
+        padding: 0;
+    }
 
 }
